@@ -3,7 +3,7 @@
 ![](https://img.shields.io/microbadger/image-size/jonathanabila/python-nodejs.svg)
 ![](https://img.shields.io/github/license/jonathanabila/docker-python-nodejs.svg)
 
-### Python 3.6.8 with Node.js 10.x based on nikolaik/python-nodejs(https://github.com/nikolaik/docker-python-nodejs)
+### Python 3.6.8 with Node.js 10.x based on [nikolaik/python-nodejs](https://github.com/nikolaik/docker-python-nodejs)
 
     Node: 10.x
     npm: 6.x
@@ -14,19 +14,26 @@
 
 Pull from Docker Hub
 
-`docker pull jonathanabila/python-nodejs`
+```
+docker pull jonathanabila/python-nodejs
+```
 
 Build from GitHub
-
-`docker build -t jonathanabila/python-nodejs github.com/jonathanabila/docker-python-nodejs`
+```
+docker build -t jonathanabila/python-nodejs github.com/jonathanabila/docker-python-nodejs
+```
 
 Run image
 
-`docker run -it jonathanabila/python-nodejs bash`
+```
+docker run -it jonathanabila/python-nodejs bash
+```
 
 Use as base image
 
-`FROM jonathanabila/python-nodejs:latest`
+```
+FROM jonathanabila/python-nodejs:latest`
+```
 
 Disclaimer
 
