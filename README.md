@@ -11,6 +11,7 @@
     Python: 3.6.8
     pip: latest
     pipenv: latest
+    awscli: latest
 
 Pull from Docker Hub
 

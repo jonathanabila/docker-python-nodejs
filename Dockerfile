@@ -16,4 +16,5 @@ RUN \
   apt-get install -yqq nodejs yarn && \
   pip install -U pip && pip install pipenv && \
   npm i -g npm@^6 && \
+  pip install awscli && \
   rm -rf /var/lib/apt/lists/*
