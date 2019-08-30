@@ -9,10 +9,10 @@ jobs:
       script:
         - cd 3.6
         - docker build -t python36-nodejs .
-        - docker run python36-nodejs /bin/sh -c "python -V && pip --version && pipenv --version && node -v && npm -v && yarn --version"
+        - docker run python36-nodejs /bin/sh -c "python3.6 -V && pip --version && pipenv --version && node -v && npm -v && yarn --version"
 
     - stage: python3.7
       script:
         - cd 3.7
         - docker build -t python37-nodejs .
-        - docker run python37-nodejs /bin/sh -c "python -V && pip --version && pipenv --version && node -v && npm -v && yarn --version"
+        - docker run python37-nodejs /bin/sh -c "python3.7 -V && pip --version && pipenv --version && node -v && npm -v && yarn --version"
