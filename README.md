@@ -13,27 +13,37 @@
     pipenv: latest
     awscli: latest
 
+### Python 3.7 with Node.js 10.x based on [nikolaik/python-nodejs](https://github.com/nikolaik/docker-python-nodejs)
+
+    Node: 10.x
+    npm: 6.x
+    yarn: stable
+    Python: 3.7
+    pip: latest
+    pipenv: latest
+    awscli: latest
+
 Pull from Docker Hub
 
 ```
-docker pull jonathanabila/python-nodejs
+docker pull jonathanabila/python36-nodejs
 ```
 
 Build from GitHub
 ```
-docker build -t jonathanabila/python-nodejs github.com/jonathanabila/docker-python-nodejs
+docker build -t jonathanabila/python36-nodejs github.com/jonathanabila/docker-python-nodejs
 ```
 
 Run image
 
 ```
-docker run -it jonathanabila/python-nodejs bash
+docker run -it jonathanabila/python36-nodejs bash
 ```
 
 Use as base image
 
 ```
-FROM jonathanabila/python-nodejs:latest`
+FROM jonathanabila/python36-nodejs:latest`
 ```
 
 Disclaimer
