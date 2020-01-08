@@ -3,9 +3,9 @@
 ![](https://img.shields.io/microbadger/image-size/jonathanabila/python-nodejs.svg)
 ![](https://img.shields.io/github/license/jonathanabila/docker-python-nodejs.svg)
 
-### Python 3.6.8 with Node.js 10.x based on [nikolaik/python-nodejs](https://github.com/nikolaik/docker-python-nodejs)
+### Python 3.6.8 with Node.js 12.x based on [nikolaik/python-nodejs](https://github.com/nikolaik/docker-python-nodejs)
 
-    Node: 10.x
+    Node: 12.x
     npm: 6.x
     yarn: stable
     Python: 3.6.8
@@ -13,9 +13,9 @@
     pipenv: latest
     awscli: latest
 
-### Python 3.7 with Node.js 10.x based on [nikolaik/python-nodejs](https://github.com/nikolaik/docker-python-nodejs)
+### Python 3.7 with Node.js 12.x based on [nikolaik/python-nodejs](https://github.com/nikolaik/docker-python-nodejs)
 
-    Node: 10.x
+    Node: 12.x
     npm: 6.x
     yarn: stable
     Python: 3.7
