@@ -1,6 +1,21 @@
 FROM python:3.7-stretch
 MAINTAINER Jonathan T Abila (jonathanabila@hotmail.com)
 
+################################
+# Install Terraform
+################################
+
+# Download terraform for linux
+RUN wget https://releases.hashicorp.com/terraform/0.12.18/terraform_0.12.18_linux_amd64.zip
+
+# Unzip
+RUN unzip terraform_0.12.18_linux_amd64.zip
+
+# Move to local bin
+RUN mv terraform /usr/local/bin/
+# Check that it's installed
+RUN terraform --version
+
 # Install node prereqs, nodejs and yarn
 # Ref: https://deb.nodesource.com/setup_10.x
 # Ref: https://yarnpkg.com/en/docs/install
