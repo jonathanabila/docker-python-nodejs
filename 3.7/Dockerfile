@@ -6,10 +6,10 @@ MAINTAINER Jonathan T Abila (jonathanabila@hotmail.com)
 ################################
 
 # Download terraform for linux
-RUN wget https://releases.hashicorp.com/terraform/0.12.19/terraform_0.12.19_linux_amd64.zip
+RUN wget https://releases.hashicorp.com/terraform/0.12.23/terraform_0.12.23_linux_amd64.zip
 
 # Unzip
-RUN unzip terraform_0.12.19_linux_amd64.zip
+RUN unzip terraform_0.12.23_linux_amd64.zip
 
 # Move to local bin
 RUN mv terraform /usr/local/bin/
